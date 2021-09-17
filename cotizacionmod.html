@@ -1,0 +1,1010 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script src="jquery.js" type="text/javascript"></script>
+<script src="main.js" type="text/javascript"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Montana Tattoo</title>
+<link rel="shortcut icon" href="iconos.png">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="estilos.css">
+<link rel="stylesheet" href="font.css">
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="fff.css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="Easiest jQuery Tooltip Ever">
+<script src="jquery.js" type="text/javascript"></script>
+<script src="main.js" type="text/javascript"></script>
+<script src="SpryAssets/SpryCollapsiblePanel.js" type="text/javascript"></script>
+
+</meta>
+<style type="text/css">
+
+body {
+	background: fixed;
+	background-image: url(logo/rafa.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+</style>
+<style>
+a{
+	text-decoration:none;
+	color:#f30;	
+}
+
+pre{
+	display:block;
+	font:100% "Courier New", Courier, monospace;
+	padding:10px;
+	border:1px solid #bae2f0;
+	background:#e3f4f9;	
+	margin:.5em 0;
+	overflow:auto;
+	width:800px;
+}
+
+img{border:none;}
+
+
+/*  */
+
+#screenshot{
+	position:absolute;
+	border:1px solid #ccc;
+	background:#333;
+	padding:5px;
+	display:none;
+	color:#fff;
+	}
+
+/*  */
+#apDiv2 {
+	position: absolute;
+	width: 467px;
+	height: 115px;
+	z-index: 1;
+	left: -5px;
+	top: 612px;
+}
+</style>
+<link href="SpryAssets/SpryCollapsiblePanel.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+#apDiv7 {
+	position: absolute;
+	width: 424px;
+	height: 115px;
+	z-index: 1;
+	left: 933px;
+	top: 0px;
+}
+#apDiv {
+	position: absolute;
+	width: 468px;
+	height: 115px;
+	z-index: 2;
+	left: 459px;
+	top: 612px;
+}
+#apDiv8 {
+	position: absolute;
+	width: 584px;
+	height: 115px;
+	z-index: 1;
+	left: 894px;
+	top: 0px;
+}
+body,td,th {
+	font-size: 18px;
+	color: #FFF;
+}
+a:link {
+	color: #FFF;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #FFF;
+}
+a:hover {
+	text-decoration: none;
+	color: #FFF;
+}
+a:active {
+	text-decoration: none;
+	color: #FFF;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 18px;
+}
+#apDiv9 {
+	position: absolute;
+	width: 738px;
+	height: 299px;
+	z-index: 3;
+	left: 671px;
+	top: 1461px;
+}
+#apDiv10 {
+	position: absolute;
+	width: 163px;
+	height: 41px;
+	z-index: 4;
+	left: 911px;
+	top: 1397px;
+}
+#apDiv11 {
+	position: absolute;
+	width: 282px;
+	height: 224px;
+	z-index: 3;
+	left: 170px;
+	top: 1056px;
+}
+#apDiv12 {
+	position: absolute;
+	width: 282px;
+	height: 224px;
+	z-index: 4;
+	left: 7px;
+	top: 945px;
+}
+#apDiv13 {
+	position: absolute;
+	width: 282px;
+	height: 224px;
+	z-index: 5;
+	left: 655px;
+	top: 942px;
+}
+#apDiv14 {
+	position: absolute;
+	width: 282px;
+	height: 224px;
+	z-index: 6;
+	left: 982px;
+	top: 940px;
+}
+#apDiv15 {
+	position: absolute;
+	width: 282px;
+	height: 224px;
+	z-index: 7;
+	left: 1316px;
+	top: 938px;
+}
+#apDiv16 {
+	position: absolute;
+	width: 282px;
+	height: 224px;
+	z-index: 8;
+	left: 1640px;
+	top: 934px;
+}
+#apDiv17 {
+	position: absolute;
+	width: 245px;
+	height: 35px;
+	z-index: 9;
+	left: 18px;
+	top: 1128px;
+}
+#apDiv18 {
+	position: absolute;
+	width: 349px;
+	height: 766px;
+	z-index: 3;
+	left: 477px;
+	top: 949px;
+}
+#apDiv19 {
+	position: absolute;
+	width: 200px;
+	height: 115px;
+	z-index: 3;
+	left: 533px;
+	top: 1100px;
+}
+#apDiv20 {
+	position: absolute;
+	width: 250px;
+	height: 199px;
+	z-index: 3;
+	left: 43px;
+	top: 1286px;
+}
+#apDiv21 {
+	position: absolute;
+	width: 250px;
+	height: 199px;
+	z-index: 1;
+	left: 267px;
+	top: -1px;
+}
+#apDiv22 {
+	position: absolute;
+	width: 250px;
+	height: 199px;
+	z-index: 4;
+	left: 572px;
+	top: 1286px;
+}
+#apDiv23 {
+	position: absolute;
+	width: 250px;
+	height: 199px;
+	z-index: 5;
+	left: 842px;
+	top: 1283px;
+}
+#apDiv24 {
+	position: absolute;
+	width: 250px;
+	height: 199px;
+	z-index: 6;
+	left: 1116px;
+	top: 1282px;
+}
+#apDiv25 {
+	position: absolute;
+	width: 250px;
+	height: 199px;
+	z-index: 7;
+	left: 1388px;
+	top: 1277px;
+}
+#apDiv26 {
+	position: absolute;
+	width: 250px;
+	height: 199px;
+	z-index: 8;
+	left: 39px;
+	top: 1666px;
+}
+#apDiv27 {
+	position: absolute;
+	width: 250px;
+	height: 199px;
+	z-index: 9;
+	left: 308px;
+	top: 1664px;
+}
+#apDiv28 {
+	position: absolute;
+	width: 250px;
+	height: 199px;
+	z-index: 1;
+	left: 271px;
+	top: -3px;
+}
+#apDiv29 {
+	position: absolute;
+	width: 250px;
+	height: 199px;
+	z-index: 10;
+	left: 577px;
+	top: 1662px;
+}
+#apDiv30 {
+	position: absolute;
+	width: 253px;
+	height: 209px;
+	z-index: 11;
+	left: 844px;
+	top: 1662px;
+}
+#apDiv31 {
+	position: absolute;
+	width: 255px;
+	height: 209px;
+	z-index: 12;
+	left: 1112px;
+	top: 1660px;
+}
+#apDiv32 {
+	position: absolute;
+	width: 253px;
+	height: 212px;
+	z-index: 13;
+	left: 1383px;
+	top: 1657px;
+}
+#apDiv33 {
+	position: absolute;
+	width: 250px;
+	height: 199px;
+	z-index: 14;
+	left: 32px;
+	top: 2021px;
+}
+#apDiv34 {
+	position: absolute;
+	width: 250px;
+	height: 199px;
+	z-index: 15;
+	left: 302px;
+	top: 2021px;
+}
+#apDiv35 {
+	position: absolute;
+	width: 250px;
+	height: 199px;
+	z-index: 16;
+	left: 575px;
+	top: 2020px;
+}
+#apDiv36 {
+	position: absolute;
+	width: 253px;
+	height: 208px;
+	z-index: 17;
+	left: 847px;
+	top: 2017px;
+}
+#apDiv37 {
+	position: absolute;
+	width: 250px;
+	height: 208px;
+	z-index: 18;
+	left: 1125px;
+	top: 2014px;
+}
+#apDiv38 {
+	position: absolute;
+	width: 250px;
+	height: 200px;
+	z-index: 19;
+	left: 1392px;
+	top: 2012px;
+}
+#apDiv39 {
+	position: absolute;
+	width: 231px;
+	height: 62px;
+	z-index: 20;
+	left: 282px;
+	top: 960px;
+}
+#apDiv40 {
+	position: absolute;
+	width: 278px;
+	height: 62px;
+	z-index: 21;
+	left: 535px;
+	top: 958px;
+}
+#apDiv41 {
+	position: absolute;
+	width: 363px;
+	height: 62px;
+	z-index: 22;
+	left: 830px;
+	top: 957px;
+}
+#apDiv42 {
+	position: absolute;
+	width: 404px;
+	height: 64px;
+	z-index: 23;
+	left: 1216px;
+	top: 955px;
+}
+#apDiv43 {
+	position: absolute;
+	width: 250px;
+	height: 200px;
+	z-index: 24;
+	left: 28px;
+	top: 2406px;
+}
+#apDiv44 {
+	position: absolute;
+	width: 250px;
+	height: 199px;
+	z-index: 25;
+	left: 298px;
+	top: 2405px;
+}
+#apDiv45 {
+	position: absolute;
+	width: 250px;
+	height: 200px;
+	z-index: 26;
+	left: 570px;
+	top: 2405px;
+}
+#apDiv46 {
+	position: absolute;
+	width: 250px;
+	height: 200px;
+	z-index: 27;
+	left: 845px;
+	top: 2405px;
+}
+#apDiv47 {
+	position: absolute;
+	width: 250px;
+	height: 199px;
+	z-index: 28;
+	left: 1121px;
+	top: 2404px;
+}
+#apDiv48 {
+	position: absolute;
+	width: 250px;
+	height: 199px;
+	z-index: 29;
+	left: 1392px;
+	top: 2403px;
+}
+#apDiv49 {
+	position: absolute;
+	width: 250px;
+	height: 199px;
+	z-index: 30;
+	left: 408px;
+	top: 2801px;
+}
+#apDiv50 {
+	position: absolute;
+	width: 250px;
+	height: 199px;
+	z-index: 31;
+	left: 832px;
+	top: 2793px;
+}
+#apDiv51 {
+	position: absolute;
+	width: 250px;
+	height: 199px;
+	z-index: 32;
+	left: 1220px;
+	top: 2792px;
+}
+#apDiv52 {
+	position: absolute;
+	width: 250px;
+	height: 199px;
+	z-index: 33;
+	left: 21px;
+	top: 3208px;
+}
+#apDiv53 {
+	position: absolute;
+	width: 250px;
+	height: 199px;
+	z-index: 34;
+	left: 292px;
+	top: 3207px;
+}
+#apDiv54 {
+	position: absolute;
+	width: 250px;
+	height: 199px;
+	z-index: 35;
+	left: 574px;
+	top: 3207px;
+}
+#apDiv55 {
+	position: absolute;
+	width: 250px;
+	height: 199px;
+	z-index: 36;
+	left: 863px;
+	top: 3204px;
+}
+#apDiv56 {
+	position: absolute;
+	width: 250px;
+	height: 199px;
+	z-index: 37;
+	left: 1140px;
+	top: 3202px;
+}
+#apDiv57 {
+	position: absolute;
+	width: 250px;
+	height: 199px;
+	z-index: 38;
+	left: 1410px;
+	top: 3199px;
+}
+#apDiv58 {
+	position: absolute;
+	width: 671px;
+	height: 575px;
+	z-index: 39;
+	left: 692px;
+	top: 3624px;
+}
+#apDiv2 #CollapsiblePanel1 .CollapsiblePanelContent0 p a {
+	font-family: dirtyoldtown;
+	font-size: 18px;
+	color: #FFF;
+	text-decoration: none;
+}
+#apDiv #apDiv1 #CollapsiblePanel2 .CollapsiblePanelContent0 p a {
+	font-family: dirtyoldtown;
+}
+#apDiv2 #apDiv7 #apDiv4 #apDiv5 #CollapsiblePanel3 .CollapsiblePanelContent0 p a {
+	font-family: dirtyoldtown;
+}
+#apDiv #apDiv8 #CollapsiblePanel4 .CollapsiblePanelContent0 p a {
+	font-family: dirtyoldtown;
+}
+</style>
+</head>
+<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<body>
+
+  
+<p><a href="mapa.html"><img src="logo/logo1.jpeg" width="1937" height="612" alt="m" /></a></p>
+<div id="apDiv2">
+  <div id="CollapsiblePanel1" class="CollapsiblePanel">
+    <div class="CollapsiblePanelTab" tabindex="0">NOSOTROS</div>
+    <div class="CollapsiblePanelContent0" >
+      <p ><a href="Nosotros Mision.html">Mision</a></p>
+      <p><a href="Nosotros Vision.html">Vision</a></p>
+      <p><a href="Nosotros Seguridad.html">Seguridad</a></p>
+    </div>
+  </div>
+  <div id="apDiv7">
+    <div id="apDiv4">
+      <div id="apDiv5">
+        <div id="CollapsiblePanel3" class="CollapsiblePanel">
+          <div class="CollapsiblePanelTab" tabindex="0">STUDIO TATTOO</div>
+          <div class="CollapsiblePanelContent0">
+            <p ><a href="Nuestros Trabajos.html">Nuestros Trabajos</a></p>
+            <p ><a href="cotizacion.html">Cotizar</a></p>
+          </div>
+        </div>
+</div>
+      <div> </div>
+    </div>
+    <div>
+      <div> </div>
+    </div>
+    <div>
+      <div> </div>
+    </div>
+    <div>
+      <div> </div>
+    </div>
+  </div>
+</div>
+<div id="apDiv">
+  <div id="apDiv1">
+    <div id="CollapsiblePanel2" class="CollapsiblePanel">
+      <div class="CollapsiblePanelTab" tabindex="0">PRODUCTOS</div>
+      <div class="CollapsiblePanelContent0" >
+      <p ><a href="Nosotros Mision.html">Chaquetas</a></p>
+      <p><a href="Nosotros Vision.html">Camisetas</a></p>
+      <p><a href="Nosotros Seguridad.html">Pantalonetas</a></p>
+      <p><a href="Nosotros Seguridad.html">Accesorios</a></p>
+    </div>
+    </div>
+</div>
+  <div> </div>
+  <div id="apDiv8">
+    <div id="CollapsiblePanel4" class="CollapsiblePanel">
+      <div class="CollapsiblePanelTab" tabindex="0">MODIFICACIONES CORPORALES</div>
+      <div class="CollapsiblePanelContent0">
+      <p>&nbsp;</p>
+      <p><a href="cotizacionmod.html">Cotiza tu Modificacion</a></p>
+      </div>
+    </div>
+</div>
+  <div> </div>
+  <div> </div>
+  <div> </div>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p align="center" ><a class="as" style="font-weight: bold; font-size:62px; color: #EEE;"> <span class="ds">COTIZA TUS IDEAS CON NOSOTROS</span></a></p>
+<p align="center" >&nbsp;</p> 
+<p align="center" class="c" style="font-weight: bold; font-size: 50px; color: #EEE; font-family: TATTI;" >ST MONTANA</p>
+<p align="center" class="c" style="font-weight: bold; font-size: 50px; color: #EEE; font-family: TATTI;" >&nbsp;</p>
+<p align="center" class="c" style="font-weight: bold; font-size: 45px; color: #EEE; font-family: TATTI;" >A continuacion debes seleccionar el estilo de Modificacion que desees.</p>
+<p align="center" class="c" style="font-weight: bold; font-size: 45px; color: #EEE; font-family: TATTI;" >&nbsp;</p>
+<div id="apDiv39"><span class="c" style="font-weight: bold; font-size: 45px; color: #EEE; font-family: TATTI;"><a href="#PIERCING" span class="c" style="font-weight: bold; font-size: 45px; color: #EEE; font-family: TATTI;">PIERCING</a></span></div>
+<div id="apDiv41"><span class="c" style="font-weight: bold; font-size: 45px; color: #EEE; font-family: TATTI;"><a href="#MICRODERMAL" span class="c" style="font-weight: bold; font-size: 45px; color: #EEE; font-family: TATTI;">MICRODERMAL</a></span></div>
+<div id="apDiv42"><span class="c" style="font-weight: bold; font-size: 45px; color: #EEE; font-family: TATTI;"><a href="#ESCARIFICACION" span class="c" style="font-weight: bold; font-size: 45px; color: #EEE; font-family: TATTI;">ESCARIFICACION</a></span></div>
+<div id="apDiv40"><span class="c" style="font-weight: bold; font-size: 45px; color: #EEE; font-family: TATTI;"><a href="#EXPANCION" span class="c" style="font-weight: bold; font-size: 45px; color: #EEE; font-family: TATTI;">EXPANCION</a></span></div>
+<p align="center" class="c" style="font-weight: bold; font-size: 45px; color: #EEE; font-family: TATTI;" >&nbsp;</p>
+<p align="center" class="c" style="font-weight: bold; font-size: 45px; color: #EEE; font-family: TATTI;" >&nbsp;</p>
+<p align="center" class="c" style="font-weight: bold; font-size: 45px; color: #EEE; font-family: TATTI;" ><span class="c" style="font-weight: bold; font-size: 45px; color: #EEE; font-family: TATTI;"><a name="PIERCING" id="PIERCING" span class="c" style="font-weight: bold; font-size: 45px; color: #EEE; font-family: TATTI;">PIERCING</a></span></p>
+<p align="center" class="c" style="font-weight: bold; font-size: 45px; color: #EEE; font-family: TATTI;" >&nbsp;</p>
+<p align="center" class="c" style="font-weight: bold; font-size: 45px; color: #EEE; font-family: TATTI;" ><span class="c" style="font-weight: bold; font-size: 50px; color: #EEE; font-family: TATTI;">NARIZ O FRONTAL</span></p>
+
+
+
+<div id="apDiv20">
+  <div class="box"> <img src="modificacion/nariz.jpg" width="289" height="226" />
+    <div class="hover">
+      <p>NOSTRIL $18.500</p>
+    </div>
+  </div>
+  <div id="apDiv21">
+  <div class="box">
+<img src="modificacion/nariguera.jpg" width="289" height="226" />
+<div class="hover">
+<p>SEPTUM $27.500</p>
+</div>
+</div>
+  </div>
+</div>
+<p align="center" class="c" style="font-weight: bold; font-size: 45px; color: #EEE; font-family: TATTI;" >&nbsp;</p>
+<p>&nbsp;</p>
+<p align="center" class="c" style="font-weight: bold; font-size: 40px; color: #EEE; font-family: TATTI;" >&nbsp;</p>
+<p align="center" class="c" style="font-weight: bold; font-size: 40px; color: #EEE; font-family: TATTI;" >&nbsp;</p>
+<div id="apDiv22">
+<div class="box">
+<img src="modificacion/bridge.jpg" width="289" height="226" />
+<div class="hover">
+<p>BRIDGE $25.500</p>
+</div>
+</div>
+</div>
+<div id="apDiv23">
+<div class="box">
+<img src="modificacion/THIRD.jpg" width="289" height="226" />
+<div class="hover">
+<p>THIRD EYE $35.500</p>
+</div>
+</div>
+</div>
+<p align="center" class="c" style="font-weight: bold; font-size: 40px; color: #EEE; font-family: TATTI;" >&nbsp;</p>
+<p align= "center" style="font-weight: bold; font-size: 30px; color: #EEE;">&nbsp;</p>
+<p align= "center" style="font-weight: bold; font-size: 30px; color: #EEE;">&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p align="center" class="c" style="font-weight: bold; font-size: 45px; color: #EEE; font-family: TATTI;" ><span class="c" style="font-weight: bold; font-size: 50px; color: #EEE; font-family: TATTI;">LABIO</span></p>
+<div id="apDiv33">
+ <div class="box"> <img src="modificacion/marley.jpg" width="289" height="226" />
+    <div class="hover">
+      <p>MARLY $25.500</p>
+    </div>
+  </div>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p align="center" class="c" style="font-weight: bold; font-size: 45px; color: #EEE; font-family: TATTI;" >&nbsp;</p>
+<p align="center" class="c" style="font-weight: bold; font-size: 45px; color: #EEE; font-family: TATTI;" >&nbsp;</p>
+<p align="center" class="c" style="font-weight: bold; font-size: 45px; color: #EEE; font-family: TATTI;" >&nbsp;</p>
+<p align="center" class="c" style="font-weight: bold; font-size: 45px; color: #EEE; font-family: TATTI;" >&nbsp;</p>
+<p align="center" class="c" style="font-weight: bold; font-size: 45px; color: #EEE; font-family: TATTI;" ><span class="c" style="font-weight: bold; font-size: 50px; color: #EEE; font-family: TATTI;">BOCA</span></p>
+<div id="apDiv26">
+  <div class="box"> <img src="modificacion/meduza.jpg" width="289" height="226" />
+    <div class="hover">
+      <p>MEDUZA $28.500</p>
+    </div>
+  </div>
+</div>
+<div id="apDiv31">
+<div class="box"> <img src="modificacion/dhalia.jpg" width="289" height="226" />
+    <div class="hover">
+      <p>DAHLIA BITES $35.500</p>
+    </div>
+  </div>
+</div>
+<div id="apDiv32">
+<div class="box"> <img src="modificacion/ciber.jpg" width="289" height="226" />
+    <div class="hover">
+      <p>CYBER BITES $38.500</p>
+    </div>
+  </div>
+</div>
+<p align="center" class="c" style="font-weight: bold; font-size: 45px; color: #EEE; font-family: TATTI;" >&nbsp;</p>
+<p>&nbsp;</p>
+<div id="apDiv24">
+<div class="box">
+<img src="modificacion/rhino.jpg" width="289" height="226" />
+<div class="hover">
+<p>RHINO $35.500</p>
+</div>
+</div>
+</div>
+<div id="apDiv25">
+<div class="box">
+<img src="modificacion/austing.jpg" width="289" height="226" />
+<div class="hover">
+<p>AUSTING BAR $35.500</p>
+</div>
+</div>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div id="apDiv29">
+  <div class="box"> <img src="modificacion/labreth.jpg" width="289" height="226" />
+  <div class="hover">
+      <p>LABRET $25.500</p>
+    </div>
+  </div>
+</div>
+<div id="apDiv30">
+<div class="box"> <img src="modificacion/monroe.jpg" width="289" height="226" />
+  <div class="hover">
+      <p>MONROE $27.000</p>
+    </div>
+  </div>
+</div>
+<p align="center" class="c" style="font-weight: bold; font-size: 50px; color: #EEE; font-family: TATTI;" >&nbsp;</p>
+<p align="center" class="c" style="font-weight: bold; font-size: 50px; color: #EEE; font-family: TATTI;" >OREJA</p>
+<div id="apDiv43">
+<div class="box"> <img src="modificacion/helix.jpg" width="289" height="226" />
+    <div class="hover">
+      <p>HELIX $25.500</p>
+    </div>
+  </div>
+</div>
+<div id="apDiv47">
+<div class="box"> <img src="modificacion/snug.jpg" width="289" height="226" />
+    <div class="hover">
+      <p>SNUG $25.500</p>
+    </div>
+  </div>
+</div>
+<div id="apDiv48">
+<div class="box"> <img src="modificacion/caracola.jpg" width="289" height="226" />
+    <div class="hover">
+      <p>CONCH $25.500</p>
+    </div>
+  </div>
+</div>
+<p>&nbsp;</p>
+<div id="apDiv27">
+<div class="box"> <img src="modificacion/snacke.jpg" width="289" height="226" />
+  <div class="hover">
+      <p>SNAKE BITES $28.500</p>
+    </div>
+  </div>
+</div>
+<div id="apDiv34">
+ <div class="box"> <img src="modificacion/smile.jpg" width="289" height="226" />
+    <div class="hover">
+      <p>SMILE $25.500</p>
+    </div>
+  </div>
+</div>
+<div id="apDiv35">
+ <div class="box"> <img src="modificacion/venom.jpg" width="289" height="226" />
+    <div class="hover">
+      <p>VENOM $32.500</p>
+    </div>
+  </div>
+</div>
+<div id="apDiv38">
+ <div class="box"> <img src="modificacion/gum.png" width="289" height="226" />
+    <div class="hover">
+      <p>GUM $30.500</p>
+    </div>
+  </div>
+</div>
+<p>&nbsp;</p>
+<p><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="https://web.whatsapp.com/send?phone=573194925543" class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>&nbsp;</p>
+<div id="apDiv46">
+<div class="box"> <img src="modificacion/tragus.jpg" width="289" height="226" />
+    <div class="hover">
+      <p>TRAGUS $22.500</p>
+    </div>
+  </div>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div id="apDiv37">
+<div class="box"> <img src="modificacion/uvula.jpg" width="289" height="226" />
+    <div class="hover">
+      <p>UVULA $38.500</p>
+    </div>
+  </div>
+</div>
+<div id="apDiv36">
+  <div class="box"> <img src="modificacion/logue.jpg" width="289" height="226" />
+    <div class="hover">
+      <p>LONGUE $28.500</p>
+    </div>
+  </div>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div id="apDiv44">
+<div class="box"> <img src="modificacion/industrial.png" width="289" height="226" />
+    <div class="hover">
+      <p>INDUSTRIAL $25.500</p>
+    </div>
+  </div>
+</div>
+<div id="apDiv45">
+<div class="box"> <img src="modificacion/anti-helix.jpg" width="289" height="226" />
+    <div class="hover">
+      <p>ANTI-HELIX $28.500</p>
+    </div>
+  </div>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p align="center" class="c" style="font-weight: bold; font-size: 45px; color: #EEE; font-family: TATTI;" ><span class="c" style="font-weight: bold; font-size: 45px; color: #EEE; font-family: TATTI;"><a name="EXPANCION" id="PIERCING" span class="c" style="font-weight: bold; font-size: 45px; color: #EEE; font-family: TATTI;">EXPANCION</a></span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div id="apDiv49">
+<div class="box"> <img src="modificacion/expa1.jpg" width="289" height="226" />
+    <div class="hover">
+      <p>LOBULO $55.500</p>
+    </div>
+  </div>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div id="apDiv50">
+<div class="box"> <img src="modificacion/expa3.jpg" width="289" height="226" />
+    <div class="hover">
+      <p>LABIO $75.500</p>
+    </div>
+  </div>
+</div>
+<div id="apDiv51">
+<div class="box"> <img src="modificacion/expa2.jpg" width="289" height="226" />
+    <div class="hover">
+      <p>NARIZ $85.500</p>
+    </div>
+  </div>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p align="center" class="c" style="font-weight: bold; font-size: 50px; color: #EEE; font-family: TATTI;" ><a name="MICRODERMAL" id="PIERCING" span class="c" style="font-weight: bold; font-size: 45px; color: #EEE; font-family: TATTI;">MICRODERMAL</a></p>
+<div id="apDiv53">
+<div class="box"> <img src="modificacion/cuello.jpg" width="289" height="226" />
+    <div class="hover">
+      <p>CUELLO $65.500</p>
+    </div>
+  </div>
+</div>
+<p align="center" class="c" style="font-weight: bold; font-size: 50px; color: #EEE; font-family: TATTI;" >&nbsp;</p>
+<div id="apDiv52">
+<div class="box"> <img src="modificacion/pobulo.jpg" width="289" height="226" />
+    <div class="hover">
+      <p>POBULO $65.500</p>
+    </div>
+  </div>
+</div>
+<p align="center" class="c" style="font-weight: bold; font-size: 50px; color: #EEE; font-family: TATTI;" >&nbsp;</p>
+<p align="center" class="c" style="font-weight: bold; font-size: 50px; color: #EEE; font-family: TATTI;" >&nbsp;</p>
+<div id="apDiv54">
+<div class="box"> <img src="modificacion/pecho.jpg" width="289" height="226" />
+    <div class="hover">
+      <p>PECHO $75.500</p>
+    </div>
+  </div>
+</div>
+<div id="apDiv55">
+<div class="box"> <img src="modificacion/muneca.jpg" width="289" height="226" />
+    <div class="hover">
+      <p>MUNECA $75.500</p>
+    </div>
+  </div>
+</div>
+<div id="apDiv56">
+<div class="box"> <img src="modificacion/mano.jpg" width="289" height="226" />
+    <div class="hover">
+      <p>MANO $55.500</p>
+    </div>
+  </div>
+</div>
+<div id="apDiv57">
+<div class="box"> <img src="modificacion/espalda.jpg" width="289" height="226" />
+    <div class="hover">
+      <p>ESPALDA $75.500</p>
+    </div>
+  </div>
+</div>
+<p align="center" class="c" style="font-weight: bold; font-size: 45px; color: #EEE; font-family: TATTI;" >&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p align="center" class="c" style="font-weight: bold; font-size: 50px; color: #EEE; font-family: TATTI;" ><a name="ESCARIFICACION" id="PIERCING" span class="c" style="font-weight: bold; font-size: 45px; color: #EEE; font-family: TATTI;">ESCARIFICACION</a></p>
+<p align="center" class="c" style="font-weight: bold; font-size: 50px; color: #EEE; font-family: TATTI;" >&nbsp;</p>
+<div id="apDiv58">
+<div class="box1"> <img src="modificacion/escarificacion.jpg" width="289" height="226" />
+    <div class="hover1">
+      <p>EL VALOR DEPENDE DEL DISENO</p>
+    </div>
+  </div>
+</div>
+<p align="center" class="c" style="font-weight: bold; font-size: 50px; color: #EEE; font-family: TATTI;" >&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p align="center" class="c" style="font-weight: bold; font-size: 52px; color: #EEE; font-family: TATTI;" >Visita Nuestra Sede</p>
+<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.4348141646883!2d-74.11765408611926!3d4.515390096719144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3fa3a54e9759bd%3A0x2ad72bfcb1a5e9d0!2sTattoo%20montana!5e0!3m2!1ses!2sco!4v1598906427259!5m2!1ses!2sco" width="1550" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+&nbsp; <img src="gif/VID-20200831-WA0059.gif" width="288" height="452" alt="2" /></p>
+<p>&nbsp;</p>
+<p>
+<p align="center" class="c" style="font-weight: bold; font-size: 38px; color: #EEE; font-family: TATTI;"  ><img src="logo/iconos.png" width="222" height="202" alt="" margin:"1px"/> 
+<h3 align="center" class="c" style="font-weight: bold; font-size: 38px; color: #EEE; font-family: TATTI;" >CONTACTENOS</h3>
+<h1 align="center" class="c" style="font-weight: bold; font-size: 26px; color: #EEE; " >Telefono: +57 302 2631823 </h1>
+<h2 align="center" class="c" style="font-weight: bold; font-size: 26px; color: #EEE; " >Direccion: Calle 74c Sur #1 Este-15 a, Tv. 1 Este #99</h2>
+<h3 align="center" class="c" style="font-weight: bold; font-size: 26px; color: #EEE; " >Bogotá, Colombia</h3>
+</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div class="social-bar">
+<a href="https://facebook.com/" class="icon icon-facebook" target="_blank"></a>
+<a href="https://twitter.com/" class="icon icon-twitter" target="_blank"></a>
+<a href="https://youtube.com/" class="icon icon-youtube" target="_blank"></a>
+<a href="https://instagram.com/" class="icon icon-instagram" target="_blank"></a>
+</div>
+<script type="text/javascript">
+var CollapsiblePanel2 = new Spry.Widget.CollapsiblePanel("CollapsiblePanel2", {contentIsOpen:false});
+var CollapsiblePanel3 = new Spry.Widget.CollapsiblePanel("CollapsiblePanel3", {contentIsOpen:false});
+var CollapsiblePanel4 = new Spry.Widget.CollapsiblePanel("CollapsiblePanel4", {contentIsOpen:false});
+var CollapsiblePanel1 = new Spry.Widget.CollapsiblePanel("CollapsiblePanel1", {contentIsOpen:false});
+</script>
+</body>
+</html>

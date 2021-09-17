@@ -1,0 +1,112 @@
+@import url("Oblady_FREE/stylesheet.css");
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}.as {
+	font-size: 16px;
+}
+.as {
+	font-size: xx-large;
+}
+
+.cot1{
+	
+	float:left;
+	width:550px;
+	height:600px;
+
+	}
+.cot2{
+	
+	
+	float:right;
+	width:500px;
+	height:590px;
+
+	
+	}
+	
+
+	
+
+	
+	}
+.cotcompleto{
+
+	width:1937px;
+	height:650px;
+	}
+.CollapsiblePanelContent0{
+	color: #FFFFFF;
+	background-color: #006;
+	text-decoration: none;
+	font-size: 18px;
+	
+}	
+.CollapsiblePanelContent1{
+	font-family: dirtyoldtown;
+	color: #000000;
+	background-color: #006;
+	text-decoration: none;
+}	
+.CollapsiblePanelContent2{
+	font-family: dirtyoldtown;
+	color: #FFFFFF;
+	background-color: #006;
+	font-size: 18px;
+	text-decoration: none;
+}
+.CollapsiblePanelContent3{
+	font-family: dirtyoldtown;
+	color: #000000;
+	background-color:#006;
+}
+
+.ssp{
+	background-color:#333;
+	opacity:70%;
+	
+	border-bottom-style:ridge;}
+
+.ssp1{
+	background-color:#333;
+	opacity:70%;
+	border:dotted;}
+.cotcompleto .cot2 #apDiv9 p {
+	font-size: 60px;
+}
+.section .box .hover p {
+	text-align: center;
+}
+.section .box .hover p {
+	font-size: 12em;
+}
+.section .box .hover p {
+	font-size: 30px;
+}
+.qs {
+	font-family: "Oblady FREE";
+}
+.box .hover p {
+	font-family: Times New Roman, Times, serif;
+	font-size: 36px;
+}
